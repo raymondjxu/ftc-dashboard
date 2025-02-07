@@ -5,7 +5,7 @@
 <title>FtcDashboard</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="description" content="declaration: package: com.acmerobotics.dashboard, class: FtcDashboard">
+<meta name="description" content="declaration: package: net.raymondjxu.ftc.dashboard, class: FtcDashboard">
 <meta name="generator" content="javadoc/ClassWriterImpl">
 <link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style">
 <link rel="stylesheet" type="text/css" href="../../../script-dir/jquery-ui.min.css" title="Style">
@@ -68,11 +68,11 @@ loadScripts(document, 'script');</script>
 <main role="main">
 <!-- ======== START OF CLASS DATA ======== -->
 <div class="header">
-<div class="sub-title"><span class="package-label-in-type">Package</span>&nbsp;<a href="package-summary.html">com.acmerobotics.dashboard</a></div>
+<div class="sub-title"><span class="package-label-in-type">Package</span>&nbsp;<a href="package-summary.html">net.raymondjxu.ftc.dashboard</a></div>
 <h1 title="Class FtcDashboard" class="title">Class FtcDashboard</h1>
 </div>
 <div class="inheritance" title="Inheritance Tree"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">java.lang.Object</a>
-<div class="inheritance">com.acmerobotics.dashboard.FtcDashboard</div>
+<div class="inheritance">net.raymondjxu.ftc.dashboard.FtcDashboard</div>
 </div>
 <section class="class-description" id="class-description">
 <dl class="notes">
@@ -99,16 +99,16 @@ implements com.qualcomm.robotcore.eventloop.opmode.OpModeManagerNotifier.Notific
 <div class="table-header col-second">Method</div>
 <div class="table-header col-last">Description</div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>&lt;T&gt;&nbsp;void</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#addConfigVariable(java.lang.String,java.lang.String,com.acmerobotics.dashboard.config.ValueProvider)" class="member-name-link">addConfigVariable</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;category,
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#addConfigVariable(java.lang.String,java.lang.String,net.raymondjxu.ftc.config.dashboard.ValueProvider)" class="member-name-link">addConfigVariable</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;category,
  <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name,
- <a href="config/ValueProvider.html" title="interface in com.acmerobotics.dashboard.config">ValueProvider</a>&lt;T&gt;&nbsp;provider)</code></div>
+ <a href="config/ValueProvider.html" title="interface in net.raymondjxu.ftc.dashboard.config">ValueProvider</a>&lt;T&gt;&nbsp;provider)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Add config variable with custom provider that is automatically removed when op mode ends.</div>
 </div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>&lt;T&gt;&nbsp;void</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#addConfigVariable(java.lang.String,java.lang.String,com.acmerobotics.dashboard.config.ValueProvider,boolean)" class="member-name-link">addConfigVariable</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;category,
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#addConfigVariable(java.lang.String,java.lang.String,net.raymondjxu.ftc.config.dashboard.ValueProvider,boolean)" class="member-name-link">addConfigVariable</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;category,
  <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name,
- <a href="config/ValueProvider.html" title="interface in com.acmerobotics.dashboard.config">ValueProvider</a>&lt;T&gt;&nbsp;provider,
+ <a href="config/ValueProvider.html" title="interface in net.raymondjxu.ftc.dashboard.config">ValueProvider</a>&lt;T&gt;&nbsp;provider,
  boolean&nbsp;autoRemove)</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Add config variable with custom provider.</div>
@@ -131,7 +131,7 @@ implements com.qualcomm.robotcore.eventloop.opmode.OpModeManagerNotifier.Notific
 <div class="block">Clears telemetry data from all clients.</div>
 </div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static void</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#copyIntoSdkGamepad(com.acmerobotics.dashboard.message.redux.ReceiveGamepadState.Gamepad,com.qualcomm.robotcore.hardware.Gamepad)" class="member-name-link">copyIntoSdkGamepad</a><wbr>(<a href="message/redux/ReceiveGamepadState.Gamepad.html" title="class in com.acmerobotics.dashboard.message.redux">ReceiveGamepadState.Gamepad</a>&nbsp;src,
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#copyIntoSdkGamepad(net.raymondjxu.ftc.redux.message.dashboard.ReceiveGamepadState.Gamepad,com.qualcomm.robotcore.hardware.Gamepad)" class="member-name-link">copyIntoSdkGamepad</a><wbr>(<a href="message/redux/ReceiveGamepadState.Gamepad.html" title="class in net.raymondjxu.ftc.dashboard.message.redux">ReceiveGamepadState.Gamepad</a>&nbsp;src,
  com.qualcomm.robotcore.hardware.Gamepad&nbsp;dst)</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">&nbsp;</div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>int</code></div>
@@ -140,7 +140,7 @@ implements com.qualcomm.robotcore.eventloop.opmode.OpModeManagerNotifier.Notific
 <div class="block">Returns the image quality used by <a href="#sendImage(Bitmap)"><code>sendImage(Bitmap)</code></a> and
  <a href="#startCameraStream(org.firstinspires.ftc.robotcore.external.stream.CameraStreamSource,double)"><code>startCameraStream(CameraStreamSource, double)</code></a></div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static <a href="FtcDashboard.html" title="class in com.acmerobotics.dashboard">FtcDashboard</a></code></div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static <a href="FtcDashboard.html" title="class in net.raymondjxu.ftc.dashboard">FtcDashboard</a></code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
 <div class="block">Returns the active instance instance.</div>
@@ -185,7 +185,7 @@ implements com.qualcomm.robotcore.eventloop.opmode.OpModeManagerNotifier.Notific
 <div class="block">Sends an image to the dashboard for display (MJPEG style).</div>
 </div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#sendTelemetryPacket(com.acmerobotics.dashboard.telemetry.TelemetryPacket)" class="member-name-link">sendTelemetryPacket</a><wbr>(<a href="telemetry/TelemetryPacket.html" title="class in com.acmerobotics.dashboard.telemetry">TelemetryPacket</a>&nbsp;telemetryPacket)</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#sendTelemetryPacket(net.raymondjxu.ftc.telemetry.dashboard.TelemetryPacket)" class="member-name-link">sendTelemetryPacket</a><wbr>(<a href="telemetry/TelemetryPacket.html" title="class in net.raymondjxu.ftc.dashboard.telemetry">TelemetryPacket</a>&nbsp;telemetryPacket)</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Queues a telemetry packet to be sent to all clients.</div>
 </div>
@@ -232,7 +232,7 @@ implements com.qualcomm.robotcore.eventloop.opmode.OpModeManagerNotifier.Notific
 <div class="block">Sends updated configuration data to all instance clients.</div>
 </div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#withConfigRoot(com.acmerobotics.dashboard.CustomVariableConsumer)" class="member-name-link">withConfigRoot</a><wbr>(<a href="CustomVariableConsumer.html" title="interface in com.acmerobotics.dashboard">CustomVariableConsumer</a>&nbsp;function)</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#withConfigRoot(net.raymondjxu.ftc.dashboard.CustomVariableConsumer)" class="member-name-link">withConfigRoot</a><wbr>(<a href="CustomVariableConsumer.html" title="interface in net.raymondjxu.ftc.dashboard">CustomVariableConsumer</a>&nbsp;function)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Executes  in an exclusive context for thread-safe config tree modification
  and calls <a href="#updateConfig()"><code>updateConfig()</code></a> to keep clients up to date.</div>
@@ -318,7 +318,7 @@ implements com.qualcomm.robotcore.eventloop.opmode.OpModeManagerNotifier.Notific
 <li>
 <section class="detail" id="getInstance()">
 <h3>getInstance</h3>
-<div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="FtcDashboard.html" title="class in com.acmerobotics.dashboard">FtcDashboard</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
+<div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="FtcDashboard.html" title="class in net.raymondjxu.ftc.dashboard">FtcDashboard</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
 <div class="block">Returns the active instance instance. This should be called after <a href="#start(Context)"><code>start(Context)</code></a>.</div>
 <dl class="notes">
 <dt>Returns:</dt>
@@ -327,9 +327,9 @@ implements com.qualcomm.robotcore.eventloop.opmode.OpModeManagerNotifier.Notific
 </section>
 </li>
 <li>
-<section class="detail" id="sendTelemetryPacket(com.acmerobotics.dashboard.telemetry.TelemetryPacket)">
+<section class="detail" id="sendTelemetryPacket(net.raymondjxu.ftc.telemetry.dashboard.TelemetryPacket)">
 <h3>sendTelemetryPacket</h3>
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">sendTelemetryPacket</span><wbr><span class="parameters">(<a href="telemetry/TelemetryPacket.html" title="class in com.acmerobotics.dashboard.telemetry">TelemetryPacket</a>&nbsp;telemetryPacket)</span></div>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">sendTelemetryPacket</span><wbr><span class="parameters">(<a href="telemetry/TelemetryPacket.html" title="class in net.raymondjxu.ftc.dashboard.telemetry">TelemetryPacket</a>&nbsp;telemetryPacket)</span></div>
 <div class="block">Queues a telemetry packet to be sent to all clients. Packets are sent in batches of
  approximate period <a href="#getTelemetryTransmissionInterval()"><code>getTelemetryTransmissionInterval()</code></a>. Clients display the most
  recent value received for each key, and the data is cleared upon op mode init or a call to
@@ -382,9 +382,9 @@ implements com.qualcomm.robotcore.eventloop.opmode.OpModeManagerNotifier.Notific
 </section>
 </li>
 <li>
-<section class="detail" id="withConfigRoot(com.acmerobotics.dashboard.CustomVariableConsumer)">
+<section class="detail" id="withConfigRoot(net.raymondjxu.ftc.dashboard.CustomVariableConsumer)">
 <h3>withConfigRoot</h3>
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">withConfigRoot</span><wbr><span class="parameters">(<a href="CustomVariableConsumer.html" title="interface in com.acmerobotics.dashboard">CustomVariableConsumer</a>&nbsp;function)</span></div>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">withConfigRoot</span><wbr><span class="parameters">(<a href="CustomVariableConsumer.html" title="interface in net.raymondjxu.ftc.dashboard">CustomVariableConsumer</a>&nbsp;function)</span></div>
 <div class="block">Executes  in an exclusive context for thread-safe config tree modification
  and calls <a href="#updateConfig()"><code>updateConfig()</code></a> to keep clients up to date.
 
@@ -396,11 +396,11 @@ implements com.qualcomm.robotcore.eventloop.opmode.OpModeManagerNotifier.Notific
 </section>
 </li>
 <li>
-<section class="detail" id="addConfigVariable(java.lang.String,java.lang.String,com.acmerobotics.dashboard.config.ValueProvider)">
+<section class="detail" id="addConfigVariable(java.lang.String,java.lang.String,net.raymondjxu.ftc.config.dashboard.ValueProvider)">
 <h3>addConfigVariable</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="type-parameters">&lt;T&gt;</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">addConfigVariable</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;category,
  <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name,
- <a href="config/ValueProvider.html" title="interface in com.acmerobotics.dashboard.config">ValueProvider</a>&lt;T&gt;&nbsp;provider)</span></div>
+ <a href="config/ValueProvider.html" title="interface in net.raymondjxu.ftc.dashboard.config">ValueProvider</a>&lt;T&gt;&nbsp;provider)</span></div>
 <div class="block">Add config variable with custom provider that is automatically removed when op mode ends.</div>
 <dl class="notes">
 <dt>Type Parameters:</dt>
@@ -413,11 +413,11 @@ implements com.qualcomm.robotcore.eventloop.opmode.OpModeManagerNotifier.Notific
 </section>
 </li>
 <li>
-<section class="detail" id="addConfigVariable(java.lang.String,java.lang.String,com.acmerobotics.dashboard.config.ValueProvider,boolean)">
+<section class="detail" id="addConfigVariable(java.lang.String,java.lang.String,net.raymondjxu.ftc.config.dashboard.ValueProvider,boolean)">
 <h3>addConfigVariable</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="type-parameters">&lt;T&gt;</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">addConfigVariable</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;category,
  <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name,
- <a href="config/ValueProvider.html" title="interface in com.acmerobotics.dashboard.config">ValueProvider</a>&lt;T&gt;&nbsp;provider,
+ <a href="config/ValueProvider.html" title="interface in net.raymondjxu.ftc.dashboard.config">ValueProvider</a>&lt;T&gt;&nbsp;provider,
  boolean&nbsp;autoRemove)</span></div>
 <div class="block">Add config variable with custom provider.</div>
 <dl class="notes">
@@ -493,9 +493,9 @@ implements com.qualcomm.robotcore.eventloop.opmode.OpModeManagerNotifier.Notific
 </section>
 </li>
 <li>
-<section class="detail" id="copyIntoSdkGamepad(com.acmerobotics.dashboard.message.redux.ReceiveGamepadState.Gamepad,com.qualcomm.robotcore.hardware.Gamepad)">
+<section class="detail" id="copyIntoSdkGamepad(net.raymondjxu.ftc.redux.message.dashboard.ReceiveGamepadState.Gamepad,com.qualcomm.robotcore.hardware.Gamepad)">
 <h3>copyIntoSdkGamepad</h3>
-<div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">copyIntoSdkGamepad</span><wbr><span class="parameters">(<a href="message/redux/ReceiveGamepadState.Gamepad.html" title="class in com.acmerobotics.dashboard.message.redux">ReceiveGamepadState.Gamepad</a>&nbsp;src,
+<div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">copyIntoSdkGamepad</span><wbr><span class="parameters">(<a href="message/redux/ReceiveGamepadState.Gamepad.html" title="class in net.raymondjxu.ftc.dashboard.message.redux">ReceiveGamepadState.Gamepad</a>&nbsp;src,
  com.qualcomm.robotcore.hardware.Gamepad&nbsp;dst)</span></div>
 </section>
 </li>

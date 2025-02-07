@@ -1,6 +1,6 @@
 package org.firstinspires.ftc.teamcode;
 
-import com.acmerobotics.dashboard.config.Config;
+import net.raymondjxu.ftc.dashboard.config.Config;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
 
 /*

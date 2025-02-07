@@ -1,8 +1,8 @@
-com.acmerobotics.dashboard
-com.acmerobotics.dashboard.canvas
-com.acmerobotics.dashboard.config
-com.acmerobotics.dashboard.config.reflection
-com.acmerobotics.dashboard.config.variable
-com.acmerobotics.dashboard.message
-com.acmerobotics.dashboard.message.redux
-com.acmerobotics.dashboard.telemetry
+net.raymondjxu.ftc.dashboard
+net.raymondjxu.ftc.dashboard.canvas
+net.raymondjxu.ftc.dashboard.config
+net.raymondjxu.ftc.dashboard.config.reflection
+net.raymondjxu.ftc.dashboard.config.variable
+net.raymondjxu.ftc.dashboard.message
+net.raymondjxu.ftc.dashboard.message.redux
+net.raymondjxu.ftc.dashboard.telemetry

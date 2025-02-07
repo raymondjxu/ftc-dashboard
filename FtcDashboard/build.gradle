@@ -14,7 +14,7 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
-        minSdkVersion 23
+        minSdkVersion 24
         //noinspection ExpiredTargetSdkVersion
         targetSdkVersion 26
     }
@@ -124,7 +124,7 @@ def addPomDependencies(root) {
         return n
     }
 
-    addDep("club.delby.ftcdash", "core", dashboard_version)
+    addDep("net.raymondjxu.ftc.dashboard", "core", dashboard_version)
 
     ["RobotCore", "Hardware", "RobotServer", "FtcCommon"].forEach {
         addDep("org.firstinspires.ftc", it, min_sdk_version)
@@ -182,7 +182,7 @@ project.afterEvaluate {
                 artifact androidSourcesJar
                 artifact androidJavadocsJar
 
-                groupId = "club.delby.ftcdash"
+                groupId = "net.raymondjxu.ftc.dashboard"
                 artifactId = "ftcdashboard"
                 version dashboard_version
 

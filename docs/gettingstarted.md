@@ -8,11 +8,11 @@ layout: default
 
 ### Basic
 
-Open `build.dependencies.gradle`. In the `repositories` section add `maven { url = 'https://maven.brott.dev/' }`, and in the `dependencies` section add `implementation 'com.acmerobotics.dashboard:dashboard:0.4.14'`.
+Open `build.dependencies.gradle`. In the `repositories` section add `maven { url = 'https://maven.brott.dev/' }`, and in the `dependencies` section add `implementation 'net.raymondjxu.ftc.dashboard:dashboard:0.4.14'`.
 
 Note: If you're using OpenRC or have non-standard SDK dependencies, add the following exclusion.
 ```groovy
-implementation('com.acmerobotics.dashboard:dashboard:0.4.14') {
+implementation('net.raymondjxu.ftc.dashboard:dashboard:0.4.14') {
     exclude group: 'org.firstinspires.ftc'
 }
 ```
