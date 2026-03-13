@@ -163,12 +163,12 @@ project.afterEvaluate {
         repositories {
             maven {
                 name = "GitHubPackages"
-                url = "https://maven.pkg.github.com/awesomestcode/ftc-dashboard"
+                url = "https://maven.pkg.github.com/raymondjxu/ftc-dashboard"
                 credentials {
                     System.out.println("GITHUB_PACKAGES_USERNAME: " + System.getenv("GITHUB_PACKAGES_USERNAME"))
                     // throw exception if not "AwesomestCode"
-                    if(System.getenv("GITHUB_PACKAGES_USERNAME") != "awesomestcode") {
-                        throw new GradleException("GITHUB_PACKAGES_USERNAME is not AwesomestCode, is: " + System.getenv("GITHUB_PACKAGES_USERNAME"))
+                    if(System.getenv("GITHUB_PACKAGES_USERNAME") != "raymondjxu") {
+                        throw new GradleException("GITHUB_PACKAGES_USERNAME is not raymondjxu, is: " + System.getenv("GITHUB_PACKAGES_USERNAME"))
                     }
 
                     username = System.getenv("GITHUB_PACKAGES_USERNAME")
@@ -189,7 +189,7 @@ project.afterEvaluate {
                 pom {
                     description = "Web dashboard designed for FTC"
                     name = "FTC Dashboard"
-                    url = "https://github.com/AwesomestCode/ftc-dashboard"
+                    url = "https://github.com/raymondjxu/ftc-dashboard"
 
                     licenses {
                         license {
@@ -206,13 +206,13 @@ project.afterEvaluate {
                             email = "rcbrott@gmail.com"
                         }
                         developer {
-                            id = "awesomestcode"
+                            id = "raymondjxu"
                             name = "Raymond Xu"
                         }
                     }
 
                     scm {
-                        url = "https://github.com/awesomestcode/ftc-dashboard"
+                        url = "https://github.com/raymondjxu/ftc-dashboard"
                     }
                 }
 
